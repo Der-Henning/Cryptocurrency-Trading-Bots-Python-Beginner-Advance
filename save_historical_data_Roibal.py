@@ -10,7 +10,7 @@ import mpl_finance #import candlestick_ohlc
 
 from datetime import datetime
 from binance.client import Client
-from BinanceKeys import BinanceKey1
+from myBinanceKeys import BinanceKey1
 
 
 api_key = BinanceKey1['api_key']
