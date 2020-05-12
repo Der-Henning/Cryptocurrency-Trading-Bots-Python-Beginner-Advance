@@ -213,7 +213,6 @@ def get_historical_klines(symbol, interval, start_str, end_str=None):
             startTime=start_ts,
             endTime=end_ts
         )
-
         # handle the case where our start date is before the symbol pair listed on Binance
         if not symbol_existed and len(temp_data):
             symbol_existed = True

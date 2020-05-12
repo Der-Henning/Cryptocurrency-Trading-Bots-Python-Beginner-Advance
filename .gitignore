@@ -2,3 +2,4 @@ myBinanceKeys.py
 venv/
 .vscode/
 __pycache__/
+pystore/
